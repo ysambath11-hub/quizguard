@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build​​",
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -12,7 +12,7 @@
     "format:check": "prettier --check .",
     "pretypecheck": "next typegen",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run tests/unit",
+    "test": "vitest run tests/unit --webpack"
     "test:watch": "vitest tests/unit",
     "test:integration": "vitest run tests/integration",
     "db:generate": "drizzle-kit generate",
