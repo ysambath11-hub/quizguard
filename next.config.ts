@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   // Produces a minimal .next/standalone server for infrastructure/docker/Dockerfile.
-  output: "standalone",
   // Removes the `X-Powered-By: Next.js` response header — no reason to advertise the stack.
   poweredByHeader: false,
   // Phase 13's Docker build (docs/ARCHITECTURE.md — Section 16) crashed on boot with
