@@ -11,9 +11,7 @@ const nextConfig: NextConfig = {
   // gap (node_modules/next/dist/docs/.../output.md, "Caveats"). `@swc/helpers` was also added
   // as a direct dependency (package.json) so pnpm hoists it to a top-level, glob-resolvable
   // path — without that, this glob had nothing to match at all.
-  outputFileTracingIncludes: {
-    "/*": ["./node_modules/@swc/helpers/**/*"],
-  },
+
   async headers() {
     return [
       {
